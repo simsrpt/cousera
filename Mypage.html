@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My First page</title>
+
+</head>
+<body>
+	<script src="https://kit.fontawesome.com/b36189ddd5.js" crossorigin="anonymous"></script>
+	<p> My first page of web development  </p>
+	<div> I hav learned web programming from corsera***</div>
+	  Its fun learning web programming
+	  <span> for interest in web development </span>
+	  <div class="container">
+	   <img src='C:\Users\User\Desktop\Devang.jpg' alt="mypic" title="mypic" width="50%" height="50%"> 
+	   <div class="overlay">
+	   <div class="overlayContent">
+	   	<H1>heyy its me</H1>
+	   	<p> Devang Dudwadkar </p>
+	   </div>
+	</div>
+</div>
+
+
+</body>
+<style type="text/css">
+	.container{
+		width: 20%;
+		border: 1px solid;
+		position: absolute;
+		top: 50%;left: 50%;
+		transform: translate(-50%,-50%);
+		border-image: linear-gradient(57deg,#833ab4,#fd1d1d,#fcb045);
+ 		border-image-slice: 1;
+	};
+	
+
+
+	img{
+		width: 40%;
+		height: auto;
+	}
+	.overlay{
+		position: absolute;
+		top: 0;left: 0;
+		bottom: 0;right: 0;
+		
+		opacity: 0;
+		transition: opacity 0.9s ease-in-out;
+		cursor: pointer;
+		background-color: lightblue;
+	}
+	.overlayContent{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		color: black;
+		font-family: verdana;
+		text-align: center;
+	}
+	.container:hover .overlay{ opacity: 0.8; }
+</style>
+
+	  <hr> 
+
+<footer ><a href="http://www.corsera.com"><strong>link is </strong><i class="fab fa-instagram"></i> HERE!!!</a></footer>
+ 
+</body>
+</html>

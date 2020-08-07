@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My First page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1> 
+		<span>H</span><span>ey</span>
+		<span>I</span><span>'m</span>
+		<span>S</span><span>imran</span>
+		<span>D</span><span>udwadkar</span>
+	</h1>
+	<style type="text/css">
+ 	body{
+ 		background-color: #111;
+ 	}
+ 	h1{
+ 		font-family: verdana;
+ 		font-size: 50px;
+ 		cursor: pointer;
+ 		white-space: nowrap;
+ 		margin: 0;
+ 		position: absolute;
+ 		top: 50%;left: 50%;
+ 		transform:translate(-50%,-50%);
+
+ 	}
+ 	h1 span{
+ 		display: inline-block;
+ 		overflow: hidden;
+ 		transition: all 0.9s ease-out;
+ 		color: red;
+ 	}
+  h1 span:nth-child(even) {
+ 		color: #da4747;
+ 		letter-spacing:-40px;
+
+ 	}
+ 	h1:hover span:nth-child(even){
+ 		letter-spacing:0;
+ 		color: #47dada
+ 	}
+ 	h1: hover span :nth-child(2){
+ 		transition-delay: 0s;
+ 		transition: .1s;
+ 	}
+ 	h1: hover span :nth-child(4){
+ 		transition-delay: 0.5s;
+ 		transition: .15s;
+ 	}
+ 	h1: hover span :nth-child(6){
+ 	transition-delay: .1s;
+ 	transition: .2s;
+ 	}
+ 	h1 span :nth-child(8){
+ 		transition-delay: 1.5s;
+ 	}:hover;
+ </style>	
+</body>
+</html>
